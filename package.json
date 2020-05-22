@@ -1,0 +1,26 @@
+{
+  "name": "middle-earth-server",
+  "version": "1.0.0",
+  "description": "server for middle-earth-d3",
+  "main": "server.js",
+  "repository": "https://github.com/anikerr/middle-earth-server.git",
+  "author": "Alana Kerr <ani.kerr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "apollo-server-express": "^2.13.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "v13.7.0",
+    "npm": "6.13.6"
+  }
+}
