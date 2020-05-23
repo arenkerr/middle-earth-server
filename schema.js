@@ -7,6 +7,11 @@ const typeDefs = gql`
     bio: String
     race: String
   }
+
+  type Race {
+    title: String!
+    desc: String
+  }
   
   type Mutation {
     addPerson(name: String!, tree_id: String!): Person
@@ -18,6 +23,7 @@ const typeDefs = gql`
     getPeople: [Person]
     getPerson(name: String!): Person
     getPeopleByRace(race: String!): [Person]
+    getRace(title: String!): Race
   }`;
 
 module.exports = typeDefs;

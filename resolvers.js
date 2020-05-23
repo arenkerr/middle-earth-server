@@ -1,10 +1,12 @@
-const Person = require('./models/person')
+const Person = require('./models/person');
+const Race = require('./models/race');
 
 const resolvers = {
   Query: {
     getPeople: async () => await Person.find(),
     getPerson: async (root, args) => await Person.findOne(args),
-    getPeopleByRace: async (root, args) => await Person.find(args)
+    getPeopleByRace: async (root, args) => await Person.find(args),
+    getRace: async (root, args) => await Race.find(args),
   },
   Mutation: {
     addPerson: async (root, args) => {
@@ -35,7 +37,7 @@ const resolvers = {
 
       return updatedPerson;
     }
-  }
+  },
 }
 
 module.exports = resolvers;
