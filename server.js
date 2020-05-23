@@ -6,6 +6,8 @@ require('./config');
 
 // import models
 const { Person } = require('./models/person');
+const { Race } = require('./models/race');
+
 
 // Import GraphQL components
 const typeDefs = require('./schema')

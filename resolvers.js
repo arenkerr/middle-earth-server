@@ -6,7 +6,8 @@ const resolvers = {
     getPeople: async () => await Person.find(),
     getPerson: async (root, args) => await Person.findOne(args),
     getPeopleByRace: async (root, args) => await Person.find(args),
-    getRace: async (root, args) => await Race.find(args),
+    getAllRaces: async () => await Race.find(),
+    getRace: async (root, args) => await Race.findOne(args),
   },
   Mutation: {
     addPerson: async (root, args) => {
