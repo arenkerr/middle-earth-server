@@ -22,7 +22,7 @@ const typeDefs = gql`
   type Query {
     getPeople: [Person],
     getPerson(name: String!): Person,
-    getPeopleByRace(title: String!): [Person],
+    getPeopleByRace(race: String!): [Person],
     getRace(title: String!): Race,
     getAllRaces: [Race],
   }`;

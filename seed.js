@@ -6,7 +6,6 @@ const dbName = 'arda';
 const collectionName = 'races';
 
 let races = []
-
 // Connect to the server
 MongoClient.connect(dbURL, function(err, client) {
   assert.equal(null, err);
