@@ -5,7 +5,7 @@ const dbURL = 'mongodb://localhost:27017/arda';
 const dbName = 'arda';
 const collectionName = 'races';
 
-let races = []
+let races = [];
 // Connect to the server
 MongoClient.connect(dbURL, function(err, client) {
   assert.equal(null, err);
