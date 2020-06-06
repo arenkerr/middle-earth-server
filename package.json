@@ -10,7 +10,7 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
-    "apollo-server": "^2.13.1",
+    "apollo-server": "^2.14.2",
     "apollo-server-express": "^2.13.1",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
