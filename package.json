@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "server for middle-earth-d3",
   "main": "server.js",
-  "repository": "https://github.com/anikerr/middle-earth-server.git",
-  "author": "Alana Kerr <ani.kerr@gmail.com>",
+  "repository": "https://github.com/arenkerr/middle-earth-server.git",
+  "author": "Aren Kerr <aren.kerr@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "nodemon server.js"
